@@ -19,16 +19,6 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services" className="hover:text-orange-400">
-                    Services
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/portfolio" className="hover:text-orange-400">
-                    Portfolio
-                  </Link>
-                </li>
-                <li>
                   <Link href="/blog" className="hover:text-orange-400">
                      Blog
                   </Link>
@@ -47,10 +37,10 @@ const Footer = () => {
               <h3 className="text-lg font-semibold">Contact Information</h3>
               <ul className="mt-4">
                 <li>
-                  <p>Email: <a href="mailto:info@example.com" className="hover:text-orange-400">Furtuconstruction@gmail.com</a></p>
+                  <p>Email: <a href="mailto:info@example.com" className="hover:text-orange-400">devsphere@gmail.com</a></p>
                 </li>
                 <li>
-                  <p>Phone: <a href="tel:+1234567890" className="hover:text-orange-300">+251 91 237 9833</a></p>
+                  <p>Phone: <a href="tel:+1234567890" className="hover:text-orange-300">+251 91 234 5678</a></p>
                 </li>
               </ul>
             </div>
@@ -74,7 +64,7 @@ const Footer = () => {
                   <FaTwitter />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/biruk-abebayehu-7a33b11a2"
+                  href="#"
                   target='_blank'
                   className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white hover:bg-orange-700 transition-colors"
                   aria-label="LinkedIn"
@@ -105,7 +95,7 @@ const Footer = () => {
 
           {/* Bottom Section (Copyright) */}
           <div className="text-center text-sm">
-            <p>&copy; 2025 Furtuu Construction Company. All rights reserved.</p>
+            <p>&copy; 2025 Devsphere. All rights reserved.</p>
           </div>
         </div>
       </footer>
