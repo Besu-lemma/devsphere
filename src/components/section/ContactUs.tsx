@@ -3,8 +3,8 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-   <section className='p-10 w-full bg-white'>
-    <h1 className='text-4xl font-bold text-black text-center'>Contact us</h1>
+   <section className='p-10 w-full bg-gray-900'>
+    <h1 className='mb-4 text-4xl text-center tracking-tight font-extrabold text-white'>Contact us</h1>
     <div className='grid grid-cols-2 gap-8 shadow-2xl py-10 w-full'>
        <Image
        className='w-3xl h-full rounded-2xl'
@@ -19,7 +19,7 @@ const ContactUs = () => {
               {/* Row 1: Name and Email */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-black">
+                  <label htmlFor="name" className="block text-sm font-medium text-white">
                     Your Name*
                   </label>
                   <input
@@ -28,12 +28,12 @@ const ContactUs = () => {
                     name="name"
                     // value={formData.name}
                     // onChange={handleInputChange}
-                    className="mt-2 w-full px-4 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="mt-2 w-full px-4 py-2 border border-blue-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                     required
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-black">
+                  <label htmlFor="email" className="block text-sm font-medium text-white">
                     Email Address*
                   </label>
                   <input
@@ -42,7 +42,7 @@ const ContactUs = () => {
                     name="email"
                     // value={formData.email}
                     // onChange={handleInputChange}
-                    className="mt-2 w-full px-4 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="mt-2 w-full px-4 py-2 border border-blue-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                     required
                   />
                 </div>
@@ -51,7 +51,7 @@ const ContactUs = () => {
               {/* Row 2: Phone and Subject */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-black">
+                  <label htmlFor="phone" className="block text-sm font-medium text-white">
                     Phone No
                   </label>
                   <input
@@ -60,12 +60,12 @@ const ContactUs = () => {
                     name="phone"
                     // value={formData.phone}
                     // onChange={handleInputChange}
-                    className="mt-2 w-full px-4 py-2 border  rounded-lg border-black focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="mt-2 w-full px-4 py-2 border  rounded-lg border-blue-800 focus:outline-none focus:ring-2 focus:ring-primary"
                     required
                   />
                 </div>
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-black">
+                  <label htmlFor="subject" className="block text-sm font-medium text-white">
                     Subject
                   </label>
                   <input
@@ -74,14 +74,14 @@ const ContactUs = () => {
                     name="subject"
                     // value={formData.subject}
                     // onChange={handleInputChange}
-                    className="mt-2 w-full px-4 py-2 border  rounded-lg border-black focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="mt-2 w-full px-4 py-2 border  rounded-lg border-blue-800 focus:outline-none focus:ring-2 focus:ring-primary"
                   />
                 </div>
               </div>
 
               {/* Message */}
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-black">
+                <label htmlFor="message" className="block text-sm font-medium text-white">
                   Message Here*
                 </label>
                 <textarea
@@ -90,7 +90,7 @@ const ContactUs = () => {
                   // value={formData.message}
                   // onChange={handleInputChange}
                   rows={6}
-                  className="mt-2 w-full px-4 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="mt-2 w-full px-4 py-2 border border-blue-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                   required
                 ></textarea>
               </div>
@@ -99,7 +99,7 @@ const ContactUs = () => {
               <div className="text-center">
                 <button
                   type="submit"
-                  className="mt-6 inline-flex items-center px-6 py-2 text-sm font-medium text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
+                  className="mt-6 inline-flex items-center px-5 py-2.5 text-sm font-medium text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
                 >
                   Send Mail
                 </button>

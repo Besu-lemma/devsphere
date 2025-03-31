@@ -5,9 +5,9 @@ import Image from 'next/image';
 
 const BlogsSection = () => {
   return ( 
-    <section className="p-12 w-ful bg-white">
+    <section className="p-12 w-ful dark:bg-gray-900">
       {/* Section Title */}
-      <h1 className="text-black font-bold text-3xl text-center">Our Latest Blogs</h1>
+      <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Our Latest Blogs</h1>
 
       {/* Search & Filtering Controls */}
       <div className="py-8 flex justify-between items-center max-w-4xl mx-auto w-full">
